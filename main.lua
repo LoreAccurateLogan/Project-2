@@ -37,11 +37,6 @@ function draw()
     image(borderImage, 0, 0)
 end
 
-function mouseClicked()
-
-    save("project2_screenshot2")
-end
-
 function drawShape()
     
     local shapesPerRow = random(10, 40)
